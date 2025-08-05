@@ -1,0 +1,42 @@
+"""
+Ex 11 - Exercício 11
+As Organizações Tabajara resolveram dar um aumento de salário aos seus colaboradores e lhe contraram para desenvolver o programa que calculará os reajustes. Faça um programa que recebe o salário de um colaborador e o reajuste segundo o seguinte critério, baseado no salário atual:
+
+salários até R$ 280,00 (incluindo) : aumento de 20%
+salários entre R$ 280,00 e R$ 700,00 : aumento de 15%
+salários entre R$ 700,00 e R$ 1500,00 : aumento de 10%
+salários de R$ 1500,00 em diante : aumento de 5% Após o aumento ser realizado, informe na tela:
+o salário antes do reajuste;
+o percentual de aumento aplicado;
+o valor do aumento;
+o novo salário, após o aumento.
+"""
+
+# Solicita ao usuário que informe o salário atual
+salario = float(input("Informe o salário atual do colaborador: R$ "))
+
+# Inicializa variáveis para armazenar o percentual e o valor do aumento
+percentual = 0
+
+# Verifica em qual faixa o salário se enquadra e define o percentual de aumento
+if salario <= 280:
+    percentual = 20
+elif salario <= 700:
+    percentual = 15
+elif salario <= 1500:
+    percentual = 10
+else:
+    percentual = 5
+
+# Calcula o valor do aumento com base no percentual
+valor_aumento = salario * (percentual / 100)
+
+# Calcula o novo salário somando o aumento
+novo_salario = salario + valor_aumento
+
+# Exibe os resultados com as informações detalhadas
+print("\n===== Reajuste Salarial =====")
+print(f"Salário antes do reajuste: R$ {salario:.2f}")
+print(f"Percentual de aumento aplicado: {percentual}%")
+print(f"Valor do aumento: R$ {valor_aumento:.2f}")
+print(f"Novo salário após o aumento: R$ {novo_salario:.2f}")
