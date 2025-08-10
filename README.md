@@ -7,16 +7,16 @@ Este repositório contém exercícios práticos para o aprendizado de **lógica 
 1. **Estrutura Sequencial**  
    Exercícios focados em entrada, processamento e saída de dados de forma linear.  
    Exemplos:
-   - Cálculos simples
-   - Conversão de valores
-   - Operações matemáticas básicas
+   - Cálculos simples.
+   - Conversão de valores.
+   - Operações matemáticas básicas.
 
 2. **Estruturas de Decisão (Condicionais)**  
    Exercícios que envolvem tomadas de decisão com uso de estruturas como `if`, `elif` e `else`.  
    Exemplos:
-   - Verificação de condições
-   - Cálculo de média e avaliação
-   - Sistema de classificação
+   - Verificação de condições.
+   - Cálculo de média e avaliação.
+   - Sistema de classificação.
 
 ## 🎯 Objetivo
 
@@ -30,6 +30,6 @@ O objetivo deste projeto é praticar e consolidar os fundamentos da lógica de p
 ## 🚀 Como usar
 
 1. Clone este repositório:
-   ```bash
+   
    git clone https://github.com/SeuUsuario/Logica-de-programacao-com-Python.git
 
